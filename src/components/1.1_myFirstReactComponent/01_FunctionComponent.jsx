@@ -4,7 +4,9 @@
 // 3. Define prop types
 
 
-function FuntionComponent(props) {
+import React from 'react';
+
+function FunctionComponent(props) {
     return(
         <>
             <h1>Hello, Earth!</h1>
@@ -12,4 +14,4 @@ function FuntionComponent(props) {
         </>
     );
 }
- export default FuntionComponent;
+export default FunctionComponent;
